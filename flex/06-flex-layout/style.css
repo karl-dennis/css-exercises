@@ -24,3 +24,43 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* Solutions */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  /* this removes the dots on the list */
+  list-style-type: none;
+  display: flex;
+  gap: 8px;
+  padding-left: 0;
+}
+
+a {
+  /* this removes underline */
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex: 1;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
